@@ -18,7 +18,7 @@ double Student::calculateAverage() {
     double average = sum / grades.size();
     return average;
 }
-void Student::printDetails(){
+void Student::printDetails() {
     cout << "Student Name: " << name << endl;
-    cout << "Average Grade: " << fixed << setprecision(2) <<calculateAverage() <<endl;
+    cout << "Average Grade: " << fixed << setprecision(2) <<calculateAverage() << endl;
 }
