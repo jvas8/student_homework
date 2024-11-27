@@ -1,4 +1,5 @@
 #include "student.h"
+#include <iostream>
 #include <iomanip>
 
 Student::Student(string studentName){
